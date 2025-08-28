@@ -1,8 +1,8 @@
 from faker import Faker
 import random
 
-spam_words = ["Free", "Win", "Prize", "Click", "Buy now"]
-ham_words = ["Meeting", "Report", "Project", "Schedule", "Lunch"]
+spam_words:list[str] = ["Free", "Win", "Prize", "Click", "Buy now"]
+ham_words:list[str] = ["Meeting", "Report", "Project", "Schedule", "Lunch"]
 
 fake = Faker()
 
